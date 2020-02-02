@@ -62,4 +62,31 @@ public class SmartBearMain {
 
     }
 
+    public static void verifyOrder(WebDriver driver, String givenName){
+        List<WebElement> allNames = driver.findElements(By.xpath("//table[@id='ctl00_MainContent_orderGrid']/tbody/tr/td[2]"));
+
+        for(WebElement name : allNames){
+            if(name.getText().equals(givenName)){
+                System.out.println(givenName + " exists in the list. Verification PASSED!");
+                return;
+            }
+        }
+
+        System.out.println(givenName + " does NOT exist in the list. Verification FAILED!!!");
+
+    }
+
+    public static void printNamesAndCities(WebDriver driver){
+
+        List<WebElement> allNames = driver.findElements(By.xpath("//table[@id='ctl00_MainContent_orderGrid']/tbody/tr/td[2]"));
+        List<WebElement> allCities = driver.findElements(By.xpath("//table[@id='ctl00_MainContent_orderGrid']/tbody/tr/td[7]"));
+
+        for(int i=0; i<allCities.size(); i++){
+            System.out.println(allNames.get(i).getText() + "<-- name , city --> " + allCities.get(i).getText());
+        }
+
+    }
+
+
+
 }
