@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="444d2f8f-1378-453d-94dc-6ee9fca81a2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="444d2f8f-1378-453d-94dc-6ee9fca81a2d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/vytrack_pages/VytrackLoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="541">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -398,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580946430381</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="PageObjectModel class">
+      <created>1580958841031</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580958841031</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -435,8 +440,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="973" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22820237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22820237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,7 +451,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994618" visible="true" weight="0.3772242" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994618" weight="0.13285884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40123457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,7 +476,8 @@
     <MESSAGE value="Properties utility" />
     <MESSAGE value="Properties and Driver utility" />
     <MESSAGE value="Driver utility added Safari support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Driver utility added Safari support" />
+    <MESSAGE value="PageObjectModel class" />
+    <option name="LAST_COMMIT_MESSAGE" value="PageObjectModel class" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -971,8 +978,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/vytrack_pages/VytrackLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="541">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
