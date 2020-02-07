@@ -1,6 +1,5 @@
 package utilites;
 
-import com.sun.xml.internal.ws.model.WrapperBeanGenerator;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;

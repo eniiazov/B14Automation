@@ -3,6 +3,7 @@ package mentorings.tuesday.amazon;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import utilites.Config;
 
 import java.util.List;
 

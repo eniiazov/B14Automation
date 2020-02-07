@@ -21,6 +21,7 @@ public class Config {
 
         } catch (IOException e) {
             e.printStackTrace();
+            System.out.println("File not found");
         }
 
     }
